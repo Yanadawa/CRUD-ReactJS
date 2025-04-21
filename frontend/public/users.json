@@ -1,0 +1,43 @@
+[
+    {
+        "id" : 1,
+        "fullname" : "Jack Sparrow",
+        "nickname" : "Jack",
+        "address" : "Seven Seas",
+        "dob" : "1997-06-12",
+        "role" : "Pirates",
+        "place" : "Seven Seas"
+    },
+
+    {
+        "id" : 2,
+        "fullname" : "Jack Sparrow",
+        "nickname" : "Jack",
+        "address" : "Seven Seas",
+        "dob" : "1997-06-12",
+        "role" : "Pirates",
+        "place" : "Seven Seas"
+    },
+
+    {
+        "id" : 3,
+        "fullname" : "Jack Sparrow",
+        "nickname" : "Jack",
+        "address" : "Seven Seas",
+        "dob" : "1997-06-12",
+        "role" : "Pirates",
+        "place" : "Seven Seas"
+    },
+
+    {
+        "id" : 4,
+        "fullname" : "Stephen Strange",
+        "nickname" : "Stephen",
+        "address" : "New York",
+        "dob" : "1989-10-3",
+        "role" : "Doctor",
+        "place" : "New York"
+    }
+
+    
+]
