@@ -19,7 +19,7 @@ function UserList() {
       user.nickname.toLowerCase().includes(searchTerm.toLowerCase()) ||
       user.place.toLowerCase().includes(searchTerm.toLowerCase()) || 
       user.role.toLowerCase().includes(searchTerm.toLowerCase()) || 
-      user.id.toString().includes(searchTerm.toString())
+      user.id.toString().includes(searchTerm.toString()) //.toString changes id (integer) to a string data type
   );
 
   return (
