@@ -1,6 +1,9 @@
 import React, { useState, useEffect } from 'react'
 
 
+
+
+
 function UserList() {
     const [users, setUsers] = useState([]);
     const [searchTerm, setSearchTerm] = useState("");
@@ -15,7 +18,7 @@ function UserList() {
 
     // for search bar
     const filteredUsers = users.filter((user) => 
-        user.fullname.toLowerCase().includes(searchTerm.toLowerCase()) ||
+        user.fullname.toLowerCase().includes(searchTerm.toLowerCase()) || // toLowerCase used for not activate case sensitive
         user.nickname.toLowerCase().includes(searchTerm.toLowerCase())
     );
 

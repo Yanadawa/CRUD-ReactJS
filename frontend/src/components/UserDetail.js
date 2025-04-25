@@ -1,6 +1,10 @@
 import React, { useState } from 'react';
 
+
+
+
 function UserDetail() {
+    // 
     const [user, setUser] = useState({
         fullname : '',
         nickname : '',
@@ -11,10 +15,11 @@ function UserDetail() {
     });
 
 
-    const handleChange = (e) => {
+    // 
+    const handleChange = (e) => { //e is for event
         const { name, value } = e.target;
         setUser((prevUser) => ({
-            ...prevUser,
+            ...prevUser, // show the previous saved array
             [name] : value
         }));
     };
